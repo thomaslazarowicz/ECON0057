@@ -27,6 +27,7 @@ close all; clear; clc;  % close open images, clear workspace, clear command wind
 
 cd("C:\Users\uctpttl\ECON0057\Tutorials") % set working directory
 addpath("Tutorial 1") % Additional folder 
+addpath("Functions") %Directory for storing functions
 
 
 %--------------------------------------------------------------------------
