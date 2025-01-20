@@ -2,15 +2,17 @@
 %
 %  Numerical Solution to McCall Search Model
 %
-%  Written by: Michael Graber, February 2012
-%  Updated by: Various Contributors (latest: January 2025)
+
 %
-%  This version focuses on clarity for introductory MATLAB macroeconomics.
 %
 %==========================================================================
 
 clc;
 clear;
+
+cd("C:\Users\uctpttl\ECON0057\Tutorials") % set working directory
+addpath("Tutorial 2") % Additional folder 
+addpath("Functions") %Directory for storing functions
 
 %% Parameters
 beta = 0.9;                     % Discount factor: reflects the agent's patience (closer to 1 = more patient)
