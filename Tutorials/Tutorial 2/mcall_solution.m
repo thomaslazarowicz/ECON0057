@@ -21,8 +21,8 @@ w = (1:100)';                   % Wage offers (grid of possible wages)
 
 % Define the probability distribution for wage offers
 % Uncomment one of the following lines to choose the wage distribution:
-% p = 0.01 * ones(100, 1);        % Uniform distribution (all wages equally likely)
-p = w.^(-1) / sum(w.^(-1));      % Inverse distribution (higher wages less likely)
+%p = 0.01 * ones(100, 1);        % Uniform distribution (all wages equally likely)
+%p = w.^(-1) / sum(w.^(-1));      % Inverse distribution (higher wages less likely)
 
 % Tolerance for convergence and maximum number of iterations
 tol = 1.0e-5;                   % Convergence tolerance: how close successive iterations must be to stop
